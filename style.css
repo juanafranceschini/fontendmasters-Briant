@@ -1,0 +1,102 @@
+* {
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'IM Fell French Canon SC', serif;
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}
+
+h2{
+    font-family: 'IM Fell French Canon SC', serif;
+    font-weight: lighter;
+    text-align: center;
+    font-size: 30px;
+}
+
+p{
+ font-family: Arial, Helvetica, sans-serif;
+ font-size: 13px;
+ padding: 0 12px 0 12px;
+ line-height: 18px;
+}
+
+.wrapper{
+ display: flex;
+ border-top: solid 3px black;
+}
+
+.firstnews{
+    width: 25%;
+    border: solid 1px black;
+}
+
+.secondnews{
+    width: 50%;
+    border-top: solid 1px black;
+    border-bottom: none;
+}
+
+img{
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+}
+
+.thirdnews{
+    width: 25%;
+    border: solid 1px black;
+}
+
+.forthnews{
+    width: 25%;
+    border-right: solid 1px black;
+    border-left: solid 1px black;
+    border-bottom: solid 3px black;;
+}
+
+.sections{
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center;
+    width: 75%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 30px;
+    color: white;
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    border-bottom: solid 3px black;
+}
+
+.allsections{
+    display: flex;
+    align-items: center;
+    flex: 1;
+    text-decoration: none;
+    padding: 30px;
+}
+
+.section-pol{
+    background-color: thistle;
+}
+
+.section-tec{
+    background-color: cadetblue;
+}
+
+.section-loc{
+    background-color: cornflowerblue;
+}
+
+.section-opi{
+    background-color: rgb(107, 189, 134);
+}
+
+.section-spo{
+    background-color: sandybrown;
+}
